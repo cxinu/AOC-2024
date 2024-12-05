@@ -27,7 +27,7 @@ void insert(int key) {
         if (hashTable[index]->key == key) {
             hashTable[index]->count++;
         } else {
-            // If collision, linear probing
+            // collision, linear probing
             unsigned int originalIndex = index;
             index = (index + 1) % TABLE_SIZE;
             while (index != originalIndex && hashTable[index] != NULL && hashTable[index]->key != key) {
@@ -75,7 +75,7 @@ void similarity(int l1[], int l2[], int size) {
 }
 
 int main() {
-    FILE *file = fopen("day1.txt", "r");
+    FILE *file = fopen("input-1.txt", "r");
     int size = 1000;
     int distance_sum = 0;
 
