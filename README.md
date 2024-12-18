@@ -6,3 +6,6 @@ aight mafs, maybe i didn't do 2nd part the intended way so didn't feel hard
 
 #### day 3
 not so lol, i fucking hate string parsing.
+
+#### day 4
+ez, Matrix shenanigans
